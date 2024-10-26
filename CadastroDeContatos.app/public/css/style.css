@@ -1,0 +1,97 @@
+nav{
+    background-color: #2f5972;
+    height: 80px;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-left: 42px;
+    
+}
+
+.sidebar{
+    background-color: #343a40;
+    margin-top: 65px;
+    color: white;
+    height: 100%;
+}
+
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar a:hover{
+    background-color: #495057;
+}
+
+.content {
+    flex: 1; /* ocupa o espaço restante */
+    padding: 15px;
+}
+.table-responsive {
+    overflow-x: auto; /* permite rolagem horizontal em telas pequenas */
+}
+
+
+
+.msg{
+    background-color: #d4edda;
+    color:#155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-list form{
+    display: inline-block;
+}
+
+.form-search{
+    width: 1000px;
+    padding: 10px;
+}
+
+.layout-contato{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.form-list{
+    width: 600px;
+    margin-left: 200px;
+}
+
+.table-list{
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.banner-img{
+    background-image: url("../img/banner2.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: (0,0,0,0, 0.7); 
+}
+
+.info-item{
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.pagination{
+    background-color: white;
+}
+
+
+footer{
+    background-color: black;
+}
